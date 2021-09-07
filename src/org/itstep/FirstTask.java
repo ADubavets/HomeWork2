@@ -43,9 +43,13 @@ public class FirstTask {
         int m = -15;
         int n = 11;
         if (m < 0 && n > 0)
-            System.out.println("Exercise 9: A numbers M and N have different signs");
+            System.out.printf("Exercise 9: A numbers %s and %s have different signs %n",
+                    Integer.toString(m),
+                    Integer.toString(n));
         else
-            System.out.println("Exercise 9: A numbers M and N have same signs");
+            System.out.printf("Exercise 9: A numbers %s and %s have same signs %n",
+                    Integer.toString(m),
+                    Integer.toString(n));
 
         /*Задание 11. Посчитать и вывести на консоль количество единичных
         битов в числе N. Вывести на консоль исходное число в двоичном виде и результат.*/
